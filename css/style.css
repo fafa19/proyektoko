@@ -1,0 +1,72 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:verdana;
+	font-size:11px;
+	background: -webkit-radial-gradient(#808181 5%, #686767 15%, #505050 60%); /* Safari 5.1-6.0 */
+	background: -o-radial-gradient(#808181 5%, #686767 15%, #505050 60%); /* For Opera 11.6-12.0 */
+	background: -moz-radial-gradient(#808181 5%, #686767 15%, #505050 60%); /* For Firefox 3.6-15 */
+	background: radial-gradient(#808181 5%, #686767 15%, #505050 60%); /* Standard syntax */
+}
+a{text-decoration:none;}
+
+#utama{
+	text-align:center;
+	margin: 0px auto;
+	margin-top:12%;
+	width:410px; 
+}
+
+#utama h1{color:#0F0150F; margin-top:5px; margin-bottom:5px;text-shadow:-1px -2px 5px #dcdcdc;}
+
+#login{
+	text-align:right;
+	background-color:#e9e9e9;
+	width:350px; 
+	margin-top:2%;
+	padding:20px;
+	position:absolute;
+	border:8px solid #fff;
+	border-radius:10px;
+	outline: 2px solid #ddd;
+	outline-radius:22px;
+	outline-offset: -9px;
+	
+}
+
+#isi{text-align:right;}
+.text{margin-bottom:3px; width:350px; }
+
+#user,#pass{
+	font-size:11px;
+	font-variant:normal;
+	letter-spacing:1px;
+	width:170px;
+	border-radius:5px;
+	position:relative;
+	height:30px;
+	padding:5px;
+	background-color:#fff;
+	color:#505050;
+}
+
+#bt_login{
+	font-size:11px;
+	height:30px;
+	width:70px; 
+	background-color:#505050; 
+	padding:  4px 14px; 
+	border-radius:5px; 
+	border:1px solid #d3d3d3;
+	color:#ccc; 
+	cursor:hand;
+	box-shadow: 0 0 7px 1px #ddd inset;
+}
+
+#bt_login:hover{
+color:#fff;	
+}
+
+#view{padding-left:105px;text-align:left;max-width:200px;}
+
+#show{position : absolute;}
